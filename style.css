@@ -1,0 +1,45 @@
+body {
+    margin-top: 22px;
+    margin-left: 282px;
+    background-color: #0000006b;
+    color: white;
+}
+
+#grid_container {
+    width: 466px;
+    height: 390px;
+    display: grid;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#rainbow {
+    margin-left: 166px;
+    margin-bottom: 11px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+#three_btns {
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+button {
+    padding: 23px;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+button:hover {
+    background-color: orange;
+    transition: ease-out 1s;
+}
