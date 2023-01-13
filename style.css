@@ -1,5 +1,5 @@
 body {
-    background-color: #0000006b;
+    background-color: #1d1919bd;
     color: white;
 }
 
@@ -28,7 +28,7 @@ body {
 
 #grids {
     width: 400px;
-    height: 300px;
+    height: 400px;
     display: grid;
     background-color: whitesmoke;
     border-radius: 12px;
@@ -53,23 +53,27 @@ button {
 }
 
 button:hover {
-    background-color: white;
+    background-color: rgb(223, 192, 192);
 }
 
 #blue {
-    background-color: rgb(121, 121, 156);
+    background-color: rgb(20, 20, 228);
 }
 
 #red {
-    background-color: rgb(141, 105, 105);
+    background-color: rgb(221, 19, 19);
 }
 
 #blue:hover {
-    background-color: rgb(39, 39, 204);
+    background-color: rgb(83, 83, 119);
+}
+
+p {
+    font-weight: bold;
 }
 
 #red:hover {
-    background-color: rgb(231, 21, 21);
+    background-color: rgb(177, 80, 80);
 }
 
 @media (max-width:600px) {
@@ -77,8 +81,8 @@ button:hover {
         width: 105px;
     }
     #grids {
-        width: 330px;
-        height: 270px;
+        width: 350px;
+        height: 350px;
     }
     #rainbow {
         padding: 5px;
