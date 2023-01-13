@@ -1,4 +1,4 @@
-const container = document.getElementById("grid_container")
+const container = document.getElementById("grids")
 
 let new_color = "";
 const blue = document.getElementById("blue");
@@ -20,7 +20,7 @@ function clear_grid() {
 
 
 function change() {
-    const choice = "blue,green,black,yellow,brown,red,orange,grey".split(",");
+    const choice = "blue,green,yellow,brown,red,orange,grey".split(",");
     return choice[Math.floor(Math.random() * choice.length)];
 
 }
@@ -29,6 +29,11 @@ rainbow.addEventListener("click", () => {
     new_color = "rainbow";
 
 })
+
+function change_background() {
+    rainbow.style.backgroundColor = change();
+
+}
 
 
 function update_grid() {
