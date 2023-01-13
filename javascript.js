@@ -18,6 +18,8 @@ function clear_grid() {
 
 }
 
+const range = document.getElementById("range_value");
+range.addEventListener("change", update_grid());
 
 function change() {
     const choice = "blue,green,yellow,brown,red,orange,grey".split(",");
