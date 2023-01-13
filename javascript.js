@@ -13,10 +13,18 @@ red.addEventListener("click", () => {
 })
 
 function clear_grid() {
-    container.innerHTML = ""
+    container.innerHTML = "";
     update_grid();
 
 }
+
+const range = document.getElementById("range_value");
+range.addEventListener("mousemove", update_grid());
+range.addEventListener("change", () => {
+    container.innerHTML = "";
+    update_grid()
+})
+
 
 function change() {
     const choice = "blue,green,yellow,brown,red,orange,grey".split(",");
