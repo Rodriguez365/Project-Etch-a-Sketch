@@ -57,11 +57,19 @@ button:hover {
 }
 
 #blue {
-    background-color: blue;
+    background-color: rgb(121, 121, 156);
 }
 
 #red {
-    background-color: red;
+    background-color: rgb(141, 105, 105);
+}
+
+#blue:hover {
+    background-color: rgb(39, 39, 204);
+}
+
+#red:hover {
+    background-color: rgb(231, 21, 21);
 }
 
 @media (max-width:600px) {
