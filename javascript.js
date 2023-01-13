@@ -19,7 +19,6 @@ function clear_grid() {
 }
 
 const range = document.getElementById("range_value");
-range.addEventListener("mousemove", update_grid());
 range.addEventListener("change", () => {
     container.innerHTML = "";
     update_grid()
